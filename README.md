@@ -1,7 +1,8 @@
 ## EndoBoost: a plug-and-play module for false positive suppression during computer-aided polyp detection in real-world colonoscopy (with dataset)
 
 This is the official repo for FPPD-13 dataset and EndoBoost. It provides FPPD-13 dataset download links, preprocessing scripts and implementation of EndoBoost.
-[[arXiv]](https://arxiv.org/abs/2212.12204)
+
+[[arXiv]](https://arxiv.org/abs/2212.12204) [[Project Page]](https://lighterswang.github.io/EndoBoost_FPPD13/)
 
 
 ### FPPD-13 Dataset
@@ -10,12 +11,12 @@ Download FPPD-13 dataset: [[GoogleDrive]](https://drive.google.com/file/d/1ZopmM
 
 
 <p align="center">
-<img src="figures/fppd13.png" width="70%" height="70%" class="center">
+<img src="docs/img/fppd13.png" width="70%" height="70%" class="center">
 </p>
 
 
-#### Data Organization
-The data in FPPD-13 is organized in the following way:
+#### Dataset Organization
+The FPPD-13 dataset is organized in the following way:
 
 ```
 ├── 0
@@ -46,9 +47,9 @@ The data in FPPD-13 is organized in the following way:
     - `data`: Original images (frames of colonoscopy video) and bounding boxes in `.json` are provided.
 - `fold1` to `fold5` contains dataset split files in `.csv` format for all experiments. 
 
-### Code
+### EndoBoost
 
-Code will be publicly available soon!
+Implementation of EndoBoost will be publicly available soon!
 
 
 ## Citation
